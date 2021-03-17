@@ -1,0 +1,130 @@
+:root {
+  box-sizing: border-box;
+}
+::before,
+::after {
+  box-sizing: inherit;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 20vw;
+}
+
+section {
+  border: 1px solid black;
+  border-radius: 15px 15px 0 0;
+  height: 400px;
+  margin-bottom: 30px;
+  overflow: HIDDEN;
+  color: white;
+}
+section h1 {
+  font-size: 1em;
+  margin: 0;
+}
+section .header-bar {
+  background-color: grey;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+section .circle {
+  width: 1em;
+  height: 1em;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  margin-left: 1em;
+}
+section .circle-red {
+  background-color: red;
+}
+section .circle-green {
+  background-color: green;
+}
+section .circle-yellow {
+  background-color: yellow;
+}
+
+/* apply to all */
+.box {
+  background-color: black;
+  width: 100px;
+  height: 100px;
+}
+
+.container {
+  border: 3px solid red;
+  display: flex;
+}
+
+/* Challenge 1 */
+
+#challenge1 .box1 {
+  margin-right: auto;
+}
+
+#challenge1 .box2 {
+  margin-right: 1em;
+}
+
+#challenge1 .container {
+  justify-content: flex-end;
+}
+
+/* Challenge 2 */
+#challenge2 .container2 {
+  justify-content: center;
+}
+
+#challenge2 .container3 {
+  justify-content: flex-end;
+}
+
+/* Challenge3 */
+#challenge3 .box1 {
+  background-color: teal;
+  width: 150px;
+  height: 150px;
+}
+
+#challenge3 .container {
+  justify-content: center;
+  align-items: center;
+}
+#challenge3 .container1 {
+  z-index: -1;
+}
+
+#challenge3 .container2 {
+  position: relative;
+  top: -150px;
+  height: 150px;
+}
+
+/* Challenge 4 */
+#challenge4 .box2 {
+  background-color: blue;
+  position: relative;
+  top: -50px;
+  left: 50px;
+}
+
+/* Challenge 6 */
+#challenge6 .container1 {
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  height: 89%;
+}
+
+#challenge6 .box1 {
+  background-color: teal;
+  height: 50%;
+  width: 60%;
+}
+
+#challenge6 .container2 {
+  z-index: 1;
+  position: ;
+}
